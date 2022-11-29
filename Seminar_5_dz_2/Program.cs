@@ -12,7 +12,7 @@ int[] GetArray(int size)
     for (int i = 0; i < size; i++)
     {
         array[i] = new Random().Next(1,10);
-        if (i % 2==0)
+        if (i % 2!=0)
         {
             sum +=array[i];
         }
